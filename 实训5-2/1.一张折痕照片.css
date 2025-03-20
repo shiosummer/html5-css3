@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h4{
+    color: gray;
+    text-align: center;
+}
+p{
+    font-family: 楷体;
+    text-indent: 2em;
+    text-align: left;
+}
+div{
+    margin:auto;
+}
+.red{
+    color: red;
+}
