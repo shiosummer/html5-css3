@@ -1,0 +1,31 @@
+.pink1{
+    color: rgb(230, 90, 206);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+.red{
+    color: red;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.blue{
+    color: blue;
+    font-size: x-large;
+    letter-spacing: 12px;
+}
+.green{
+    color: green;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.pink2{
+    color: rgb(230, 90, 206);
+    text-decoration:line-through;
+    font-size: x-large;
+    letter-spacing: -2px;
+}

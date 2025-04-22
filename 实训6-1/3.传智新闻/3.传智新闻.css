@@ -1,0 +1,29 @@
+h1{
+    text-shadow: 10px 10px red;
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    white-space:pre-wrap;
+}
+p{
+    font-size: 20px;
+    white-space: pre-line;
+    text-indent: 2em;
+}
+.purple{
+    color: purple;
+    text-decoration: underline;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: gray;
+}
