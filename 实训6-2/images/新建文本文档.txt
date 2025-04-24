@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+	*{margin:0; padding:0;}
+	@font-face{font-family:ONYX; src:url(font/简娃娃篆.TTF);}
+	@font-face{font-family:TCM; src:url(font/TCCM____.TTF);}
+	@font-face{font-family:ROCK; src:url(font/ROCK.TTF);}
+	@font-face{font-family:BOOM; src:url(font/BOOMBOX.TTF);}
+	@font-face{font-family:LTCH; src:url(font/LTCH.TTF);}
+	@font-face{font-family:jianzhi; src:url(font/FZJZJW.TTF);}
+	.one .a{font-family:ONYX; font-size:48px; color:#333;}
+	.one .b{font-family:TCM; font-size:58px; color:#4c9372;}  
+	.two .a{font-family:ROCK; font-size:24px; font-weight:bold; font-style:oblique; color:#333;}
+	.two .b{font-family:ROCK; font-size:36px; font-weight:bold; color:#333;}
+	h2 .a{font-family:BOOM; font-size:60px;}
+	h2 .b{font-family:LTCH; font-size:50px; color:#e1005a;}
+	.three{font-family:"微软雅黑"; font-size:36px;}
+	.three strong{color:#e1005a;}
+	.four{width:500px; font-family:"微软雅黑"; font-size:14px; color:#747474; }
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>服装推广软文</title>
+<link rel="stylesheet" href="style03.css" type="text/css" />
+</head>
+<body>
+<p class="one"><strong class="a">NO.3你好</strong><strong class="b">BUTTERFLY</strong></p>
+<p class="two"><strong class="a">in April</strong><strong class="b"> 15th.2021</strong></p>
+<h2><strong class="a">2021</strong><strong class="b"> 夏装全面上新</strong></h2>
+<p class="three">全场两件<strong>包邮</strong></p>
+<p class="four">所有邂逅相逢，所有萍聚水遇，都在缘分的天空下慢慢演绎。一款柔情含蓄的衣饰或是一袭与众不同的衣衫，都会成为你不同凡响必要法宝。在火热激情的青春里，在热烈奔放的夏之海洋里，你会选择什么样的精彩？</p>
+</body>
+</html>

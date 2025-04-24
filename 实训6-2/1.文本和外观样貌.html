@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本和外观样貌</title>
+</head>
+<style>
+    .red{
+        color: red;
+    }
+    .orange_underline{
+        color: orange;
+        text-decoration: underline;
+    }
+    .blue_overline{
+        color: blue;
+        text-decoration: overline;
+        letter-spacing: 5px;
+    }
+    .green_shadow{
+        color: green;
+        text-shadow: -5px -5px 5px yellow;
+    }
+    .Micsoft{
+        color: red;
+        font-style: oblique;
+        font-family: "微软雅黑";
+        font-size: 18px;
+       font-weight: bold; 
+    }
+    @font-face {
+        font-family: "CustomFont";
+        src: url(images/font/FZJZJW.TTF);
+    }
+    .font-face{
+        font-family: "CustomFont";
+        font-size: 24px;
+        color: blue;
+    }
+</style>
+<body>
+    <p class="red">good good study day day up</p>
+    <p class="orange_underline">Good Good Study Day Day Up</p>
+    <p class="blue_overline">good good study day day up</p>
+    <p class="green_shadow">GOOD GOOD STUDY DAY DAY UP</p>
+    <p class="Micsoft">我是设置为微软雅黑、18像素、倾斜、加粗的红色字体</p>
+    <p class="font-face">我是使用@font-face属性定义的服务器字体显示为24像素的蓝色字体</p>
+</body>
+</html>
