@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子模型</title>
+</head>
+<style>
+    div.class1 {
+        border-width: 10px;
+        border-style: solid dotted double dashed;
+        border-color: red orange green blue;
+        width: 400px;
+        height: 300px;
+    }
+
+    div.class2 {
+        width: 400px;
+        height: 300px;
+        border-top: 10px solid red;
+        border-right: 10px dotted orange;
+        border-bottom: 10px double green;
+        border-left: 10px dashed blue;
+    }
+
+    div.class3 {
+        border-radius: 200px/100px;
+        background-color: orange;
+        width: 200px;
+        height: 100px;
+    }
+
+    div.class4 {
+        border-radius: 100px;
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+    }
+
+    div.class5 {
+        border-radius: 50px 0px 50px 0px;
+        background-color: orange;
+        width: 200px;
+        height: 100px;
+    }
+</style>
+
+<body>
+    <div class="class1"></div>
+    <div class="class2"></div>
+    <div class="class3"></div>
+    <div class="class4"></div>
+    <div class="class5"></div>
+</body>
+
+</html>
