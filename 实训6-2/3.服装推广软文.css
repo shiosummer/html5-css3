@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "ONYX";
+    src: url(images/font/ONYX.TTF);
+}
+@font-face {
+    font-family: "LTCH";
+    src: url(images/font/LTCH.TTF);
+}
+@font-face {
+    font-family: "TCCM___";
+    src: url(images/font/TCCM____.TTF);
+}
+p{
+    white-space: pre-wrap;
+}
+.class1{
+    font-family: "ONYX";
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.class2{
+    font-family: "LTCH";
+    color:rgb(144, 238, 186);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.class3{
+    font-style: oblique;
+    font-size: xx-large;
+    font-family: "TCCM___";
+}
+.class4{
+    font-family: "LTCH";
+    font-size: x-large;
+    font-weight: bolder;
+}
+.class5{
+    font-family: "LTCH";
+    font-size: 45px;
+    font-weight: bolder;
+}
+.class6{
+    font-family: "ONYX";
+    font-size: 43px;
+    font-weight: bolder;
+    color: rgb(187, 40, 97);
+}
+.class7{
+    font-family: "ONYX";
+    font-size: xx-large;
+}
+.class8{
+    font-family: "ONYX";
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(187, 40, 97);
+}
+.class9{
+    color: gray;
+}
