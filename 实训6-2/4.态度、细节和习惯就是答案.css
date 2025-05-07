@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "FZJZJW";
+    src: url(images/font/FZJZJW.TTF);
+}
+h1{
+    font-family: "FZJZJW";
+    font-size: 48px;
+    text-align: center;
+}
+.blue{
+    color: blue;
+}
+.gray{
+    color: gray;
+}
+h2{
+    font-size: 20px;
+    font-weight:lighter;
+    text-align: center;
+    font-family: "楷体";
+}
+.red{
+    color: red;
+}
+p{
+    font-size: 20px;
+    line-height: 1.8;
+}
