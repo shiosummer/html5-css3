@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+    <title>创建一个账号</title>
+</head>
+<body>
+  <h1 style="text-align:center;">创建一个账号</h1>
+  <form>
+    <fieldset>
+      <legend>账户</legend>
+      <p><label>用户账号：<input type="text"></label></p>
+      <p><label>邮件地址：<input type="email"></label></p>
+      <p><label>登录密码：<input type="password"></label></p>
+      <p><label>确认密码：<input type="password"></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>地址</legend>
+      <p><label>街道：<input type="text"></label></p>
+      <p><label>城市：<input type="text"></label></p>
+      <p><label>所属省：<select><option>湖北省</option></select></label></p>
+      <p><label>邮编：<input type="text"></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>公共信息</legend>
+      <p><label>头像：<input type="file"></label></p>
+      <p>性别：<input type="radio">男 <input type="radio">女</p>
+      <p><label>自我描述：<textarea cols="30" rows="3"></textarea></label></p>
+    </fieldset>
+    <fieldset>
+      <legend>邮件</legend>
+      <p><input type="checkbox"> 愿意接收来自其他用户的信息</p>
+      <p><input type="checkbox"> 愿意接收来自我们其他产品的优惠信息</p>
+    </fieldset>
+    <p style="text-align:center;">
+      <input type="submit" value="创建账户">
+      <input type="reset" value="重置">
+    </p>
+  </form>
+</body>
+</html>

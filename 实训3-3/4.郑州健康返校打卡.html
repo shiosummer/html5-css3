@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>郑州健康返校打卡</title>
+</head>
+<body>
+  <div style="max-width:500px;margin:0 auto;border:1px solid #ddd;">
+    <!-- 蓝色头部 -->
+    <div style="background:#0066cc;color:#fff;padding:15px 20px;position:relative;">
+      <div style="font-size:22px;font-weight:bold;">郑州健康<br>返校打卡</div>
+            <div style="position:absolute;right:15px;top:10px;font-size:50px;">🏢</div>
+      <div style="background:#ff6600;display:inline-block;padding:2px 10px;border-radius:15px;font-size:12px;margin-top:5px;">中职/高校/教职工版</div>
+    </div>
+    <form style="padding:15px;background:#fff;">
+      <!-- 1 -->
+      <p><b>1.</b> 打卡人类型：
+        <input type="radio" name="t"> 学生
+        <input type="radio" name="t"> 教职工
+        <input type="radio" name="t"> 后勤服务人员
+      </p>
+      <!-- 2 -->
+      <p><b>2.</b> 打卡人手机号：<input type="text" style="width:200px;"></p>
+      <!-- 3 -->
+      <p><b>3.</b> 身份证号码：<input type="text" style="width:200px;"></p>
+      <!-- 4 -->
+      <p><b>4.</b> 现居住地：<small style="color:#999;">(市、县、乡、村；市、区、街道、楼、单元号)</small></p>
+      <select style="margin-left:20px;"><option>河南省/郑州市/中原区</option></select>
+      <br><textarea style="margin-left:20px;margin-top:5px;width:300px;" rows="2"></textarea>
+      <!-- 5 -->
+      <p><b>5.</b> 健康状况：</p>
+      <div style="margin-left:20px;">
+        <input type="checkbox"> 健康<br>
+        <input type="checkbox"> 发热（体温超过37.3℃）<br>
+        <input type="checkbox"> 有乏力、咳嗽、呼吸困难、腹泻、结膜炎等症状
+      </div>
+      <!-- 6 -->
+      <p><b>6.</b> 是否被隔离：</p>
+      <div style="margin-left:20px;">
+        <input type="radio" name="g"> 是-医院隔离
+        <input type="radio" name="g"> 是-居家隔离<br>
+        <input type="radio" name="g"> 是-指定地点集中隔离
+        <input type="radio" name="g"> 否
+      </div>
+      <!-- 7 -->
+      <p><b>7.</b> 过去14天是否在湖北省停留（包含转机转车路过）或接触过来自湖北省的人员：</p>
+      <div style="margin-left:20px;"><input type="radio" name="h"> 是 <input type="radio" name="h"> 否</div>
+      <!-- 8 -->
+      <p><b>8.</b> 是否与确诊（疑似）病例有过密切接触史：</p>
+      <div style="margin-left:20px;"><input type="radio" name="c"> 是 <input type="radio" name="c"> 否</div>
+      <!-- 9 -->
+      <p><b>9.</b> 最近14天内是否从外地返回郑州（若当前在郑州，请选择）：</p>
+      <div style="margin-left:20px;">
+        <input type="radio" name="r"> 是
+        <input type="radio" name="r"> 否
+        <input type="radio" name="r"> 一直在郑州
+      </div>
+      <!-- 按钮 -->
+      <p style="margin-top:20px;">
+        <input type="reset" value="取消" style="padding:8px 30px;margin-right:10px;">
+        <input type="submit" value="确认" style="padding:8px 30px;background:#0066cc;color:#fff;border:1px solid #0066cc;">
+      </p>
+    </form>
+  </div>
+</body>
+</html>
