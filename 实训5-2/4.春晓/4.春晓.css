@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "STKaiti", "KaiTi", "楷体", "楷体_GB2312", serif;
+}
+
+.poem-box {
+    width: 400px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.poem-1 {
+    background-color: cyan;
+}
+
+.poem-2 {
+    background-color: yellowgreen;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.author {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.poem-text {
+    color: darkgreen;
+    font-size: 24px;
+    line-height: 2;
+}

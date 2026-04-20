@@ -1,0 +1,51 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: cyan;
+        }
+        
+        .poem-box {
+            background-color: pink;
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+        }
+        
+        .poem-box.first {
+            border-bottom: 3px solid white;
+        }
+        
+        h1 {
+            font-size: 60px;
+            color: blue;
+            margin: 0;
+        }
+        
+        .author-bar {
+            background-color: orange;
+            display: inline-block;
+            padding: 5px 20px;
+            margin: 10px 0;
+        }
+        
+        .author-bar p {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            margin: 0;
+        }
+        
+        .poem-text {
+            font-size: 28px;
+            color: black;
+            font-style: italic;
+            font-family: "STKaiti", "KaiTi", "楷体", serif;
+            line-height: 2;
+        }
+        
+        .underline {
+            text-decoration: underline;
+        }
